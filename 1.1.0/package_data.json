@@ -1,0 +1,55 @@
+{
+    "name": "-todo--app11",
+    "version": "1.1.0",
+    "description": "todos list,using typescript,node js and inquirer",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "-todo--app11": "index.js"
+    },
+    "author": {
+        "name": "Ahsan"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "inquirer": "^9.2.16"
+    },
+    "devDependencies": {
+        "@types/inquirer": "^9.0.7"
+    },
+    "_id": "-todo--app11@1.1.0",
+    "_nodeVersion": "20.11.1",
+    "_npmVersion": "10.2.4",
+    "dist": {
+        "integrity": "sha512-pC4rynN2HwLD0ls2VSZDd1jbC9e5zEigRXrYE7BWoT4E+gdtfT2oej0hiuI319GFhu6s/0K3+INCNARuBQYSRA==",
+        "shasum": "daa532b8d9bcdfc440acc3c42b9c50740e335e9d",
+        "tarball": "https://registry.npmjs.org/-todo--app11/-/-todo--app11-1.1.0.tgz",
+        "fileCount": 4,
+        "unpackedSize": 16040,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQDKC16YBKw2uP7NsoBRCyODQDhuRq1MI+70nIrifnfLXgIhAOyPpCCJ+1c0/Znzoeb4MU26kx7OfknuFzvbhddm+ifb"
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "ahsan_383",
+        "email": "muhammadahsank74@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "ahsan_383",
+            "email": "muhammadahsank74@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/-todo--app11_1.1.0_1712506415258_0.976815658059679"
+    },
+    "_hasShrinkwrap": false
+}

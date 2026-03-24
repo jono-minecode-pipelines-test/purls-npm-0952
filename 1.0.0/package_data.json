@@ -1,0 +1,56 @@
+{
+    "name": "001-updated-version-calculator",
+    "version": "1.0.0",
+    "description": "A updated calculator with inhanced functions",
+    "main": "main.js",
+    "type": "module",
+    "bin": {
+        "001-updated-version-calculator": "main.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+        "name": "Shayan-Umer"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "inquirer": "^9.2.23"
+    },
+    "devDependencies": {
+        "@types/inquirer": "^9.0.7"
+    },
+    "_id": "001-updated-version-calculator@1.0.0",
+    "gitHead": "a2f14b8f06ab1e3590eb6e316e794026dfdeef7c",
+    "_nodeVersion": "20.14.0",
+    "_npmVersion": "10.7.0",
+    "dist": {
+        "integrity": "sha512-j3FeiSv+CnBXP/+JKWpPiJ9PuvTgwk7vjX7b2q3ry4JOL350cp/ZbdEuCV5WaRJPryJVKGqI5DwrlWYqpNlSRw==",
+        "shasum": "c2a2b730fffd632a86fcde1f444bc05a32693d96",
+        "tarball": "https://registry.npmjs.org/001-updated-version-calculator/-/001-updated-version-calculator-1.0.0.tgz",
+        "fileCount": 5,
+        "unpackedSize": 15751,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQC4kyuOmMxT6x9Foda7mSxIW6EdB/7Z8iDKLZGy9zk2RgIhAMMKBRnrC4jD5FQWqorUkrMfDcOGGM7ZpV9AkO1MGmos"
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "shayanumer",
+        "email": "umershayan91@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "shayanumer",
+            "email": "umershayan91@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/001-updated-version-calculator_1.0.0_1717185085837_0.6586305150883984"
+    },
+    "_hasShrinkwrap": false
+}

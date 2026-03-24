@@ -1,0 +1,92 @@
+{
+    "name": "-test-bitbucket-branch-manager",
+    "version": "1.0.1",
+    "description": "bitbucket branch manager",
+    "main": "lib/binaries/CLI.js",
+    "engines": {
+        "node": ">=12"
+    },
+    "bin": {
+        "bbm": "bin/bbm"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lcnghia95/bitbucket-branch-manager.git"
+    },
+    "bugs": {
+        "url": "https://github.com/lcnghia95/bitbucket-branch-manager/issues"
+    },
+    "author": {
+        "name": "Le Cong Nghia",
+        "url": "https://github.com/lcnghia95"
+    },
+    "license": "MIT",
+    "keywords": [
+        "bbm",
+        "branch",
+        "bitbucket",
+        "bitbucket remote branch",
+        "bitbucket branch manager"
+    ],
+    "scripts": {
+        "huskyinstall": "husky install",
+        "huskyinit": "npx husky add .husky/pre-commit \"yarn lint:staged\"",
+        "lint": "eslint \"**/*.js\" --fix",
+        "format": "prettier --write \"**/*.js\" \"**/*.json\"",
+        "lint:staged": "lint-staged"
+    },
+    "lint-staged": {
+        "*.{js}": [
+            "yarn format",
+            "yarn lint"
+        ]
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "cli-table": "^0.3.6",
+        "commander": "^8.0.0",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.28.3",
+        "eslint": "^7.30.0",
+        "husky": "^6.0.0",
+        "lint-staged": "^11.0.0",
+        "prettier": "^1.19.1"
+    },
+    "gitHead": "aa7c69f495c1421f0744e1b0e79e952f6457daab",
+    "homepage": "https://github.com/lcnghia95/bitbucket-branch-manager#readme",
+    "_id": "-test-bitbucket-branch-manager@1.0.1",
+    "_nodeVersion": "12.14.0",
+    "_npmVersion": "6.13.4",
+    "dist": {
+        "integrity": "sha512-Xzy6I0s+3E6H29kAQ38jfvLob/9WwFNq3Hx0v0sjNxpXeUaRmBUhxCp1oJkmbbNfkor/93PWCPCOvxzB7CRNeA==",
+        "shasum": "a86dcaad14ad7d2a972de7c0c80d739e0b3186dc",
+        "tarball": "https://registry.npmjs.org/-test-bitbucket-branch-manager/-/-test-bitbucket-branch-manager-1.0.1.tgz",
+        "fileCount": 14,
+        "unpackedSize": 35648,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg8vBMCRA9TVsSAnZWagAAd+gP/RdBxPrgBxzliMwrjxGx\nCdy7tABpdss5LwiUF+S/9gAk0HfdezPZdQPBElIvvX6saKNeD/J4Vogaa8VW\nBgDE4wSOsaKWByJe6vPYUC2LWLdTebWH7w0vseq4ZSLne1ba1Fw9+w54qRAQ\n/NUf8EqFjG9Hx7nmhQx8Ma708w6zdO1l2UxZznUlx0sGu7pNeBf5Z9TO9K55\nK6fyy83b4BYNSHzTXmIFy3lZAV9GQPr/g+UJQDrWVg0WioeRLktdSkjsN8ck\nf8yUDsnfr/M8LHizN3k6vwmpNgRoTGFPnV6iRXBMi/pcKrvUgVHrIQ4LzN27\nGf9BjQ/CGhD6SoVNse5PMXDYzDYTgrvQpSmRMO5ZB+Fzdb/h3vgcG6Qqql1u\n27B5ZqvWCV2I8X/uPienAe6MOwHOVdg/BzzAdJw6L2ycXGTkDh+E6xyde7E2\n+x/CwrqKu5zMqZgOU8X9jRDSCI2PEc58dCg1qLs4XL9Mp0dSUiOkCl03r5aT\n8EpZJC4DdFngK5M2DLZyQNFmGW2dyk7nrOIq5j608VbpXQXEzUPImqcU/uv5\nsYMEvCvYfX+8BFTqIB9aFcN7uvxztzCu65Z5pRzUsgJ57A0MTdBLxVHKOyWN\n0DQuB1DLFvAELQXXYlP45zQthB8SdDbRH7T378QobUwAVqhPhrUDCgnzYw1b\nouA5\r\n=KPTl\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQDHyBeBtshXCC4xr6yt+0WkxM1ZrA+SDqy8G+f9ra0IvQIgBsNBCfff3/ZL1yBuYuMtz8Kmv+yF31mlNUYABgm3CRM="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "lcnghia95",
+        "email": "lcnghia95@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "lcnghia95",
+            "email": "lcnghia95@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/-test-bitbucket-branch-manager_1.0.1_1626533964231_0.5673667192128826"
+    },
+    "_hasShrinkwrap": false
+}
